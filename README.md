@@ -13,7 +13,7 @@ This is a Discord moderation bot that provides various moderation features such 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/discord-moderation-bot.git
+   git clone https://github.com/Visual-Studios/Modbot
    ```
 
 2. Navigate to the project directory:
