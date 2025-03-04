@@ -55,4 +55,4 @@ client.on('interactionCreate', async (interaction: Interaction) => {
 client.on('guildMemberAdd', handleGuildMemberAdd);
 
 
-client.login('MTM0NjE5MTkyNDA2Njc4MzM1Mg.GAmu5A.-j3ouQs9ZgOD8R11SvUfwCg3SPOXhLU0xncc38'); // Add your token here
+client.login('Your_Bot_Token'); // Add your token here
