@@ -21,14 +21,14 @@ const commands = [
         .addUserOption(option => option.setName('user').setDescription('The user to timeout').setRequired(true)),
 ].map(command => command.toJSON());
 
-const rest = new REST({ version: '9' }).setToken('MTM0NjE5MTkyNDA2Njc4MzM1Mg.GAmu5A.-j3ouQs9ZgOD8R11SvUfwCg3SPOXhLU0xncc38'); // Add your token here
+const rest = new REST({ version: '9' }).setToken('YOUR_TOKEN_HERE'); // Add your token here
 
 (async () => {
     try {
         console.log('Started refreshing application (/) commands.');
 
         await rest.put(
-            Routes.applicationCommands('1346191924066783352'), // Add your client ID here
+            Routes.applicationCommands('YOUR_CLIENT_ID'), // Add your client ID here
             { body: commands },
         );
 
