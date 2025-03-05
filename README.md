@@ -8,12 +8,13 @@ This is a Discord moderation bot that provides various moderation features such 
 - Ban users from the server
 - Mute users in the server
 - Interactive buttons for moderation actions
+- Warn a member
 
 ## Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/discord-moderation-bot.git
+   git clone https://github.com/Visual-Studios/Modbot.git
    ```
 
 2. Navigate to the project directory:
